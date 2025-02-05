@@ -1,9 +1,9 @@
 /* 页脚与头图透明 */
 #footer {
-    background: transparent !important;
+    background: rgba(22, 21, 21, 0.3) !important;
   }
   #page-header {
-    background: transparent !important;
+    background: rgba(22, 21, 21, 0.3) !important;
   }
   
   /* 白天模式遮罩透明 */
@@ -21,3 +21,726 @@
   [data-theme="dark"] #page-header::before {
     background: transparent !important;
   }
+
+
+/* 小冰分类分类磁铁黑夜模式适配 */
+/* 一般状态 */
+[data-theme="dark"] .magnet_link_context {
+  background: #1e1e1e;
+  color: antiquewhite;
+}
+/* 鼠标悬浮状态 */
+[data-theme="dark"] .magnet_link_context:hover {
+  background: #3ecdf1;
+  color: #f2f2f2;
+}
+
+
+/* 侧边栏个人信息卡片动态渐变色 */
+#aside-content>.card-widget.card-info {
+  position: relative;
+  z-index: 1; /* 确保原内容在上层显示 */
+  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .7));
+  border-radius: 17px;
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+#aside-content > .card-widget.card-info::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, 
+  rgba(255, 255, 255, 0.0),
+  rgba(255, 255, 255, 0.3),
+  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0.7)),
+  url('https://picbed1.zephzxt.top/2025/01/violet.png'); /* 鼠标悬停时显示的背景图片 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  transition: opacity 0.8s; /* 过渡效果持续时间 */
+  z-index: -1;
+}
+
+[data-theme=dark] #aside-content > .card-widget.card-info::before {
+  background: linear-gradient(to bottom, 
+  rgba(24, 40, 72, .1),
+  rgba(35, 37, 58, .3),
+      rgba(35, 37, 58, .6),
+      rgba(24, 40, 72, .7)), 
+      url('https://picbed1.zephzxt.top/2025/01/violet.png'); /* 鼠标悬停时显示的背景图片 */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#aside-content > .card-widget.card-info:hover::before {
+  opacity: 1;
+}
+/* 卡片动态效果，好好看哈哈 */
+#aside-content div.card-widget.card-info .avatar-img {
+  transition: opacity 0.3s ease; /* 添加渐变效果 */
+}
+
+#aside-content div.card-widget.card-info .avatar-img:hover {
+  opacity: 0; /* 鼠标移上去时完全透明 */
+}
+
+#card-info-btn:hover, #card-info-btn:hover .icon, #card-info-btn:hover span {
+transform: scale(1.1); /* 鼠标悬停时放大到110% */
+}
+
+[data-theme=dark] #aside-content>.card-widget.card-info {
+  background: linear-gradient(-45deg, rgba(24, 40, 72, .6),
+          rgba(35, 37, 58, .5),
+          rgba(35, 37, 58, .5),
+          rgba(24, 40, 72, .6));
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 侧边栏公告栏卡片渐变色 */
+#aside-content>.card-widget.card-announcement {
+  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .7));
+  border-radius: 17px;
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] #aside-content>.card-widget.card-announcement {
+  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+          rgba(35, 37, 58, .8),
+          rgba(35, 37, 58, .8),
+          rgba(24, 40, 72, .7));
+  border-radius: 17px;        
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 侧边栏目录最新文章卡片渐变色 */
+#aside-content>.sticky_layout>.card-widget {
+  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .7));
+  border-radius: 17px;        
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] #aside-content>.sticky_layout>.card-widget {
+  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+          rgba(35, 37, 58, .8),
+          rgba(35, 37, 58, .8),
+          rgba(24, 40, 72, .7));
+  border-radius: 17px;
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 侧边栏欢迎卡片渐变色 */
+#aside-content>.card-widget.welcomeBoxClass {
+  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .7));
+  border-radius: 17px;
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] #aside-content>.card-widget.welcomeBoxClass {
+  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+          rgba(35, 37, 58, .8),
+          rgba(35, 37, 58, .8),
+          rgba(24, 40, 72, .7));
+  border-radius: 17px;
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 公告卡片渐变色 */
+#recent-posts>#noticeList {
+  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .7));
+  border-radius: 17px;
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] #recent-posts>#noticeList {
+  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+          rgba(35, 37, 58, .8),
+          rgba(35, 37, 58, .8),
+          rgba(24, 40, 72, .7));
+  border-radius: 17px;
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 个人信息Follow me按钮 */
+#aside-content>.card-widget.card-info>#card-info-btn {
+  background-color: #3eb8be;
+  border-radius: 12px;
+}
+
+/* 文章页面 */
+/* 亮色模式下 */
+.layout>#recent-posts .recent-post-item {
+  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .7));
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* 暗色模式下 */
+[data-theme=dark] .layout>#recent-posts .recent-post-item {
+  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+          rgba(35, 37, 58, .8),
+          rgba(35, 37, 58, .8),
+          rgba(24, 40, 72, .7));
+  backdrop-filter: blur(10px);
+  border-radius: 25px; 
+  -webkit-backdrop-filter: blur(10px);
+}
+
+
+
+
+/*分类页面*/
+.layout>#page {
+  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .7));
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+  /* -webkit-backdrop-filter: blur(10px); 兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#page {
+  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+          rgba(35, 37, 58, .8),
+          rgba(35, 37, 58, .8),
+          rgba(24, 40, 72, .7));
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+  /* -webkit-backdrop-filter: blur(10px); 兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+
+/*时间轴页面*/
+.layout>#archive {
+  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .7));
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#archive {
+  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+          rgba(35, 37, 58, .8),
+          rgba(35, 37, 58, .8),
+          rgba(24, 40, 72, .7));
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/*分类点进去的页面*/
+.layout>#category {
+  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .7));
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#category {
+  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+          rgba(35, 37, 58, .8),
+          rgba(35, 37, 58, .8),
+          rgba(24, 40, 72, .7));
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/*标签点进去的页面*/
+.layout>#tag {
+  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .8),
+          rgba(255, 255, 255, .7));
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#tag {
+  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+          rgba(35, 37, 58, .8),
+          rgba(35, 37, 58, .8),
+          rgba(24, 40, 72, .7));
+  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+.layout.hide-aside {
+ max-width: 1200px;
+}
+
+/* 设置黑夜的时候，社交按钮为白色 */
+[data-theme=dark] .social-icon i {
+  color: rgba(188, 188, 188) !important; /* 设置为白色 */
+}
+
+/*页脚样式设置*/
+/* tzy页脚样式 */
+#ft {
+  max-width: 1200px;
+  margin: 0 auto 12px;
+  display: flex;
+  color: rgb(255 255 255 / 80%) !important;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.ft-item-1,
+.ft-item-2 {
+  display: flex;
+  height: 100%;
+  padding: 2px 14px;
+}
+
+.ft-item-1 {
+  flex-direction: column;
+  flex: 2;
+}
+
+.ft-item-2 {
+  flex: 1;
+  flex-direction: column;
+}
+
+.t-top {
+  display: flex;
+}
+
+.t-top .t-t-l {
+  display: flex;
+  flex-direction: column;
+  flex: 1.4;
+  margin-right: 10px;
+}
+
+.t-top .t-t-l .bg-ad {
+  width: 85%;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.btn-xz-box {
+  margin-top: 10px;
+}
+
+/* 按钮背景颜色等 */
+.btn-xz {
+  display: block;
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  text-align: center;
+  line-height: 2.4;
+  margin: 8px 0;
+}
+
+.btn-xz:hover {
+  text-decoration: none !important;
+}
+/* 按钮悬浮颜色 */
+.btn-xz-box:hover .btn-xz {
+  background-color: var(--text-bg-hover);
+}
+
+.t-top .t-t-r {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.ft-links {
+  padding: 0 14px;
+  list-style: none;
+  margin-top: 0 !important;
+}
+
+.ft-links li a {
+  display: inline-block !important;
+  width: 50%;
+}
+/* 链接悬浮颜色 */
+.ft-links li a:hover {
+  text-decoration: none !important;
+  color: var(--theme-color) !important;
+}
+
+.ft-item-2 .ft-img-group {
+  width: 100%;
+}
+
+.ft-t {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.t-l-t {
+  padding-left: 14px;
+}
+
+.ft-item-2 .ft-img-group .img-group-item {
+  display: inline-block;
+  width: 18.4%;
+  margin-right: 14px;
+  margin-bottom: 6px;
+}
+
+.ft-item-2 .ft-img-group .img-group-item a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.ft-item-2 .ft-img-group .img-group-item a img {
+  width: 100%;
+  max-height: 80px;
+  border-radius: 10px;
+}
+/* 头像悬浮颜色框 */
+.ft-item-2 .ft-img-group .img-group-item a img:hover {
+  border: 2px solid var(--theme-color);
+}
+
+@media screen and (max-width: 768px) {
+  .ft-item-1 {
+    flex-basis: 100% !important;
+  }
+
+  .ft-item-2 {
+    flex-basis: 100% !important;
+  }
+
+  .t-top .t-t-l .bg-ad {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .t-top {
+    flex-wrap: wrap;
+  }
+
+  .t-top .t-t-l {
+    flex-basis: 100% !important;
+  }
+
+  .t-top .t-t-r {
+    margin-top: 16px;
+    flex-basis: 100% !important;
+  }
+}
+#footer-wrap a {
+  border-radius: 30px;
+}
+#footer-wrap {
+  padding: 20px 20px;
+}
+
+/* 页脚心跳动画 */
+#heartbeat {
+  color: red;
+  animation: iconAnimate 1s ease-in-out infinite;
+}
+@-moz-keyframes iconAnimate {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  10%,
+  30% {
+    transform: scale(0.9);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: scale(1.1);
+  }
+  50%,
+  70% {
+    transform: scale(1.1);
+  }
+}
+@-webkit-keyframes iconAnimate {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  10%,
+  30% {
+    transform: scale(0.9);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: scale(1.1);
+  }
+  50%,
+  70% {
+    transform: scale(1.1);
+  }
+}
+@-o-keyframes iconAnimate {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  10%,
+  30% {
+    transform: scale(0.9);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: scale(1.1);
+  }
+  50%,
+  70% {
+    transform: scale(1.1);
+  }
+}
+@keyframes iconAnimate {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  10%,
+  30% {
+    transform: scale(0.9);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: scale(1.1);
+  }
+  50%,
+  70% {
+    transform: scale(1.1);
+  }
+}
+
+/* iconfont
+@import "//at.alicdn.com/t/font_2264842_b004iy0kk2b.css"; */
+
+
+/*导航栏相关*/
+/* 标题增强 */
+#site-name::before {
+  opacity: 0;
+  background-color: #87CEFA;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  position: absolute;
+  top: 0 !important;
+  right: 0 !important;
+  width: 100%;
+  height: 100%;
+  content: "\f015";
+  box-shadow: 0 0 5px #87CEFA;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  line-height: 34px; /*如果有溢出或者垂直不居中的现象微调一下这个参数*/
+  font-size: 18px; /*根据个人喜好*/
+}
+#site-name:hover::before {
+  opacity: 1;
+  scale: 1.03;
+}
+#site-name {
+  position: relative;
+  font-size: 24px; /*一定要把字体调大点，否则效果惨不忍睹！*/
+}
+
+/* 一级菜单居中 */
+#nav .menus_items {
+  position: absolute !important;
+  width: fit-content !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+/* 子菜单横向展示 */
+#nav .menus_items .menus_item:hover .menus_item_child {
+  display: flex !important;
+}
+/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items .menus_item:nth-child(2) .menus_item_child {
+  left: -125px;
+}
+.menus_items .menus_item:nth-child(3) .menus_item_child {
+  left: 3px;
+}
+.menus_items .menus_item:nth-child(4) .menus_item_child {
+  left: -34px;
+}
+.menus_items .menus_item:nth-child(5) .menus_item_child {
+  left: -34px;
+}
+
+.nav-fixed #nav{
+  transform: translateY(58px)!important;
+  -webkit-transform: translateY(58px)!important;
+  -moz-transform: translateY(58px)!important;
+  -ms-transform: translateY(58px)!important;
+  -o-transform: translateY(58px)!important;
+}
+#nav{
+  transition: none!important;
+  -webkit-transition: none!important;
+  -moz-transition: none!important;
+  -ms-transition: none!important;
+  -o-transition: none!important;
+}
+/* 导航栏显示标题 */
+#page-name::before {
+  font-size: 18px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  color: rgb(95, 140, 182) !important;
+  top: 0;
+  left: 0;
+  content: "回到顶部";
+  background-color: #87CEFA;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  opacity: 0;
+  box-shadow: 0 0 3px #87CEFA;
+  line-height: 45px; /*如果垂直位置不居中可以微调此值，也可以删了*/
+}
+#page-name:hover:before {
+  opacity: 1;
+}
+#name-container {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+#name-container:hover {
+  scale: 1.03;
+}
+
+#page-name {
+  position: relative;
+  padding: 10px 30px; /*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/
+}
+#nav{
+    padding: 0 20px;
+}
+
+/* 修复滚动显示标题居中 */
+center#name-container {
+  position: absolute !important;
+  width: fit-content !important;
+  left: 50% !important;
+  transform: translateX(-50%);
+}
+@media screen and (max-width: 768px) {
+  center#name-container {
+    display: none;
+  }
+}
+
+/* 播放器样式*/
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+}
+
+svg.icon {
+  width: 1.28em;
+  height: 1.28em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/* 背景宇宙星光  */
+#universe{
+  display: block;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */
+  z-index: -1;
+}
+
+[data-theme=dark] #web_bg {
+  background-image: url(https://picbed1.zephzxt.top/2025/01/S00125-13355407.webp) !important;
+}
+
+@font-face {
+  /* 为载入的字体取名字(随意) */
+  font-family: 'LXGW';	
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/font/霞鹜文楷.woff2);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: normal;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
