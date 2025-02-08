@@ -30,10 +30,10 @@
     
     <entry>
       <title>2025-1-26</title>
-      <link href="/2025/01/26/2025-1-26-copy-2/"/>
-      <url>/2025/01/26/2025-1-26-copy-2/</url>
+      <link href="/2025/01/26/2025-1-26-copy-4/"/>
+      <url>/2025/01/26/2025-1-26-copy-4/</url>
       
-        <content type="html"><![CDATA[<h2 id="这是我的第三篇文章"><a href="#这是我的第三篇文章" class="headerlink" title="这是我的第三篇文章"></a>这是我的第三篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="这是我的第五篇文章"><a href="#这是我的第五篇文章" class="headerlink" title="这是我的第五篇文章"></a>这是我的第五篇文章</h2>]]></content>
       
       
       <categories>
@@ -80,60 +80,10 @@
     
     <entry>
       <title>2025-1-26</title>
-      <link href="/2025/01/26/2025-1-26-copy-4/"/>
-      <url>/2025/01/26/2025-1-26-copy-4/</url>
-      
-        <content type="html"><![CDATA[<h2 id="这是我的第五篇文章"><a href="#这是我的第五篇文章" class="headerlink" title="这是我的第五篇文章"></a>这是我的第五篇文章</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> test </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2025-1-26</title>
       <link href="/2025/01/26/2025-1-26-copy-5/"/>
       <url>/2025/01/26/2025-1-26-copy-5/</url>
       
         <content type="html"><![CDATA[<h2 id="这是我的第六篇文章"><a href="#这是我的第六篇文章" class="headerlink" title="这是我的第六篇文章"></a>这是我的第六篇文章</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> test </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2025-1-26</title>
-      <link href="/2025/01/26/2025-1-26/"/>
-      <url>/2025/01/26/2025-1-26/</url>
-      
-        <content type="html"><![CDATA[<h2 id="这是我的第二篇文章"><a href="#这是我的第二篇文章" class="headerlink" title="这是我的第二篇文章"></a>这是我的第二篇文章</h2>]]></content>
       
       
       <categories>
@@ -229,11 +179,36 @@
     
     
     <entry>
-      <title>2025-1-22</title>
-      <link href="/2025/01/22/2025-1-22/"/>
-      <url>/2025/01/22/2025-1-22/</url>
+      <title>2025-1-26</title>
+      <link href="/2025/01/26/2025-1-26-copy-2/"/>
+      <url>/2025/01/26/2025-1-26-copy-2/</url>
       
-        <content type="html"><![CDATA[<h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="这是我的第三篇文章"><a href="#这是我的第三篇文章" class="headerlink" title="这是我的第三篇文章"></a>这是我的第三篇文章</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2025-1-26</title>
+      <link href="/2025/01/26/2025-1-26/"/>
+      <url>/2025/01/26/2025-1-26/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我的第二篇文章"><a href="#这是我的第二篇文章" class="headerlink" title="这是我的第二篇文章"></a>这是我的第二篇文章</h2>]]></content>
       
       
       <categories>
@@ -271,6 +246,31 @@
         <tags>
             
             <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2025-1-22</title>
+      <link href="/2025/01/22/2025-1-22/"/>
+      <url>/2025/01/22/2025-1-22/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
             
         </tags>
       
@@ -332,11 +332,22 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: rgba(22, 21, 21, 0.3) !important;  }  #page-header {    background: rgba(22, 21, 21, 0.3) !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }/* 小冰分类分类磁铁黑夜模式适配 *//* 一般状态 */[data-theme="dark"] .magnet_link_context {  background: #1e1e1e;  color: antiquewhite;}/* 鼠标悬浮状态 */[data-theme="dark"] .magnet_link_context:hover {  background: #3ecdf1;  color: #f2f2f2;}/* 侧边栏个人信息卡片动态渐变色 */#aside-content>.card-widget.card-info {  position: relative;  z-index: 1; /* 确保原内容在上层显示 */  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}#aside-content > .card-widget.card-info::before {  content: "";  position: absolute;  top: 0;  left: 0;  width: 100%;  height: 100%;  background: linear-gradient(to bottom,   rgba(255, 255, 255, 0.0),  rgba(255, 255, 255, 0.3),  rgba(255, 255, 255, 0.6),  rgba(255, 255, 255, 0.7)),  url('https://picbed1.zephzxt.top/2025/01/violet.png'); /* 鼠标悬停时显示的背景图片 */  background-size: cover;  background-repeat: no-repeat;  opacity: 0.5;  transition: opacity 0.8s; /* 过渡效果持续时间 */  z-index: -1;}[data-theme=dark] #aside-content > .card-widget.card-info::before {  background: linear-gradient(to bottom,   rgba(24, 40, 72, .1),  rgba(35, 37, 58, .3),      rgba(35, 37, 58, .6),      rgba(24, 40, 72, .7)),       url('https://picbed1.zephzxt.top/2025/01/violet.png'); /* 鼠标悬停时显示的背景图片 */  background-size: cover;  background-repeat: no-repeat;}#aside-content > .card-widget.card-info:hover::before {  opacity: 1;}/* 卡片动态效果，好好看哈哈 */#aside-content div.card-widget.card-info .avatar-img {  transition: opacity 0.3s ease; /* 添加渐变效果 */}#aside-content div.card-widget.card-info .avatar-img:hover {  opacity: 0; /* 鼠标移上去时完全透明 */}#card-info-btn:hover, #card-info-btn:hover .icon, #card-info-btn:hover span {transform: scale(1.1); /* 鼠标悬停时放大到110% */}[data-theme=dark] #aside-content>.card-widget.card-info {  background: linear-gradient(-45deg, rgba(24, 40, 72, .6),          rgba(35, 37, 58, .5),          rgba(35, 37, 58, .5),          rgba(24, 40, 72, .6));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/* 侧边栏公告栏卡片渐变色 */#aside-content>.card-widget.card-announcement {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] #aside-content>.card-widget.card-announcement {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  border-radius: 17px;          /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/* 侧边栏目录最新文章卡片渐变色 */#aside-content>.sticky_layout>.card-widget {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  border-radius: 17px;          /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] #aside-content>.sticky_layout>.card-widget {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/* 侧边栏欢迎卡片渐变色 */#aside-content>.card-widget.welcomeBoxClass {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] #aside-content>.card-widget.welcomeBoxClass {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/* 公告卡片渐变色 */#recent-posts>#noticeList {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] #recent-posts>#noticeList {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/* 个人信息Follow me按钮 */#aside-content>.card-widget.card-info>#card-info-btn {  background-color: #3eb8be;  border-radius: 12px;}/* 文章页面 *//* 亮色模式下 */.layout>#recent-posts .recent-post-item {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  backdrop-filter: blur(10px);  border-radius: 25px;  -webkit-backdrop-filter: blur(10px);}/* 暗色模式下 */[data-theme=dark] .layout>#recent-posts .recent-post-item {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  backdrop-filter: blur(10px);  border-radius: 25px;   -webkit-backdrop-filter: blur(10px);}/*分类页面*/.layout>#page {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */  /* -webkit-backdrop-filter: blur(10px); 兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] .layout>#page {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */  /* -webkit-backdrop-filter: blur(10px); 兼容性前缀，适用于一些旧版本的浏览器 */}/*时间轴页面*/.layout>#archive {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] .layout>#archive {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/*分类点进去的页面*/.layout>#category {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] .layout>#category {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/*标签点进去的页面*/.layout>#tag {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] .layout>#tag {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}.layout.hide-aside { max-width: 1200px;}/* 设置黑夜的时候，社交按钮为白色 */[data-theme=dark] .social-icon i {  color: rgba(188, 188, 188) !important; /* 设置为白色 */}/*页脚样式设置*//* tzy页脚样式 */#ft {  max-width: 1200px;  margin: 0 auto 12px;  display: flex;  color: rgb(255 255 255 / 80%) !important;  text-align: left;  flex-wrap: wrap;}.ft-item-1,.ft-item-2 {  display: flex;  height: 100%;  padding: 2px 14px;}.ft-item-1 {  flex-direction: column;  flex: 2;}.ft-item-2 {  flex: 1;  flex-direction: column;}.t-top {  display: flex;}.t-top .t-t-l {  display: flex;  flex-direction: column;  flex: 1.4;  margin-right: 10px;}.t-top .t-t-l .bg-ad {  width: 85%;  border-radius: 10px;  padding: 0 10px;}.btn-xz-box {  margin-top: 10px;}/* 按钮背景颜色等 */.btn-xz {  display: block;  background-color: var(--btn-bg);  color: var(--btn-color);  text-align: center;  line-height: 2.4;  margin: 8px 0;}.btn-xz:hover {  text-decoration: none !important;}/* 按钮悬浮颜色 */.btn-xz-box:hover .btn-xz {  background-color: var(--text-bg-hover);}.t-top .t-t-r {  display: flex;  flex-direction: column;  flex: 1;}.ft-links {  padding: 0 14px;  list-style: none;  margin-top: 0 !important;}.ft-links li a {  display: inline-block !important;  width: 50%;}/* 链接悬浮颜色 */.ft-links li a:hover {  text-decoration: none !important;  color: var(--theme-color) !important;}.ft-item-2 .ft-img-group {  width: 100%;}.ft-t {  font-size: 1.1rem;  margin-bottom: 20px;  line-height: 1;  font-weight: 600;}.t-l-t {  padding-left: 14px;}.ft-item-2 .ft-img-group .img-group-item {  display: inline-block;  width: 18.4%;  margin-right: 14px;  margin-bottom: 6px;}.ft-item-2 .ft-img-group .img-group-item a {  display: inline-block;  width: 100%;  height: 100%;}.ft-item-2 .ft-img-group .img-group-item a img {  width: 100%;  max-height: 80px;  border-radius: 10px;}/* 头像悬浮颜色框 */.ft-item-2 .ft-img-group .img-group-item a img:hover {  border: 2px solid var(--theme-color);}@media screen and (max-width: 768px) {  .ft-item-1 {    flex-basis: 100% !important;  }  .ft-item-2 {    flex-basis: 100% !important;  }  .t-top .t-t-l .bg-ad {    width: 100%;  }}@media screen and (max-width: 576px) {  .t-top {    flex-wrap: wrap;  }  .t-top .t-t-l {    flex-basis: 100% !important;  }  .t-top .t-t-r {    margin-top: 16px;    flex-basis: 100% !important;  }}#footer-wrap a {  border-radius: 30px;}#footer-wrap {  padding: 20px 20px;}/* 页脚心跳动画 */#heartbeat {  color: red;  animation: iconAnimate 1s ease-in-out infinite;}@-moz-keyframes iconAnimate {  0%,  100% {    transform: scale(1);  }  10%,  30% {    transform: scale(0.9);  }  20%,  40%,  60%,  80% {    transform: scale(1.1);  }  50%,  70% {    transform: scale(1.1);  }}@-webkit-keyframes iconAnimate {  0%,  100% {    transform: scale(1);  }  10%,  30% {    transform: scale(0.9);  }  20%,  40%,  60%,  80% {    transform: scale(1.1);  }  50%,  70% {    transform: scale(1.1);  }}@-o-keyframes iconAnimate {  0%,  100% {    transform: scale(1);  }  10%,  30% {    transform: scale(0.9);  }  20%,  40%,  60%,  80% {    transform: scale(1.1);  }  50%,  70% {    transform: scale(1.1);  }}@keyframes iconAnimate {  0%,  100% {    transform: scale(1);  }  10%,  30% {    transform: scale(0.9);  }  20%,  40%,  60%,  80% {    transform: scale(1.1);  }  50%,  70% {    transform: scale(1.1);  }}/* iconfont@import "//at.alicdn.com/t/font_2264842_b004iy0kk2b.css"; *//*导航栏相关*//* 标题增强 */#site-name::before {  opacity: 0;  background-color: #87CEFA;  border-radius: 8px;  -webkit-border-radius: 8px;  -moz-border-radius: 8px;  -ms-border-radius: 8px;  -o-border-radius: 8px;  transition: 0.3s;  -webkit-transition: 0.3s;  -moz-transition: 0.3s;  -ms-transition: 0.3s;  -o-transition: 0.3s;  position: absolute;  top: 0 !important;  right: 0 !important;  width: 100%;  height: 100%;  content: "\f015";  box-shadow: 0 0 5px #87CEFA;  font-family: "Font Awesome 6 Free";  font-weight: 900;  text-align: center;  color: white;  line-height: 34px; /*如果有溢出或者垂直不居中的现象微调一下这个参数*/  font-size: 18px; /*根据个人喜好*/}#site-name:hover::before {  opacity: 1;  scale: 1.03;}#site-name {  position: relative;  font-size: 24px; /*一定要把字体调大点，否则效果惨不忍睹！*/}/* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(2) .menus_item_child {  left: -125px;}.menus_items .menus_item:nth-child(3) .menus_item_child {  left: 3px;}.menus_items .menus_item:nth-child(4) .menus_item_child {  left: -34px;}.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -34px;}.nav-fixed #nav{  transform: translateY(58px)!important;  -webkit-transform: translateY(58px)!important;  -moz-transform: translateY(58px)!important;  -ms-transform: translateY(58px)!important;  -o-transform: translateY(58px)!important;}#nav{  transition: none!important;  -webkit-transition: none!important;  -moz-transition: none!important;  -ms-transition: none!important;  -o-transition: none!important;}/* 导航栏显示标题 */#page-name::before {  font-size: 18px;  position: absolute;  width: 100%;  height: 100%;  border-radius: 8px;  color: rgb(95, 140, 182) !important;  top: 0;  left: 0;  content: "回到顶部";  background-color: #87CEFA;  transition: all 0.3s;  -webkit-transition: all 0.3s;  -moz-transition: all 0.3s;  -ms-transition: all 0.3s;  -o-transition: all 0.3s;  opacity: 0;  box-shadow: 0 0 3px #87CEFA;  line-height: 45px; /*如果垂直位置不居中可以微调此值，也可以删了*/}#page-name:hover:before {  opacity: 1;}#name-container {  transition: all 0.3s;  -webkit-transition: all 0.3s;  -moz-transition: all 0.3s;  -ms-transition: all 0.3s;  -o-transition: all 0.3s;}#name-container:hover {  scale: 1.03;}#page-name {  position: relative;  padding: 10px 30px; /*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/}#nav{    padding: 0 20px;}/* 修复滚动显示标题居中 */center#name-container {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%);}@media screen and (max-width: 768px) {  center#name-container {    display: none;  }}/* 播放器样式*/.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {  left: -66px !important;  /* 默认情况下缩进左侧66px，只留一点箭头部分 */}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {  left: 0 !important;  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */}svg.icon {  width: 1.28em;  height: 1.28em;  vertical-align: -0.15em;  fill: currentColor;  overflow: hidden;}/* 背景宇宙星光  */#universe{  display: block;  position: fixed;  margin: 0;  padding: 0;  border: 0;  outline: 0;  left: 0;  top: 0;  width: 100%;  height: 100%;  pointer-events: none;  /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */  z-index: -1;}[data-theme=dark] #web_bg {  background-image: url(https://picbed1.zephzxt.top/2025/01/S00125-13355407.webp) !important;}@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'LXGW';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/霞鹜文楷.woff2);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}/* 波浪css */.main-hero-waves-area {  width: 100%;  position: absolute;  left: 0;  bottom: -11px;  z-index: 5;}.waves-area .waves-svg {  width: 100%;  height: 5rem;}/* Animation */.parallax > use {  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;}.parallax > use:nth-child(1) {  animation-delay: -2s;  animation-duration: 7s;  fill: #f7f9febd;}.parallax > use:nth-child(2) {  animation-delay: -3s;  animation-duration: 10s;  fill: #f7f9fe82;}.parallax > use:nth-child(3) {  animation-delay: -4s;  animation-duration: 13s;  fill: #f7f9fe36;}.parallax > use:nth-child(4) {  animation-delay: -5s;  animation-duration: 20s;  fill: #f7f9fe;}/* 黑色模式背景 */[data-theme="dark"] .parallax > use:nth-child(1) {  animation-delay: -2s;  animation-duration: 7s;  fill: #18171dc8;}[data-theme="dark"] .parallax > use:nth-child(2) {  animation-delay: -3s;  animation-duration: 10s;  fill: #18171d80;}[data-theme="dark"] .parallax > use:nth-child(3) {  animation-delay: -4s;  animation-duration: 13s;  fill: #18171d3e;}[data-theme="dark"] .parallax > use:nth-child(4) {  animation-delay: -5s;  animation-duration: 20s;  fill: #18171d;}@keyframes move-forever {  0% {    transform: translate3d(-90px, 0, 0);  }  100% {    transform: translate3d(85px, 0, 0);  }}/*Shrinking for mobile*/@media (max-width: 768px) {  .waves-area .waves-svg {    height: 40px;    min-height: 40px;  }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/nav.js"/>
+      <url>/js/nav.js</url>
+      
+        <content type="html"><![CDATA[document.addEventListener('pjax:complete', tonav);document.addEventListener('DOMContentLoaded', tonav);//响应pjaxfunction tonav() {    document.getElementById("name-container").setAttribute("style", "display:none");    var position = $(window).scrollTop();    $(window).scroll(function () {        var scroll = $(window).scrollTop();        if (scroll > position) {            document.getElementById("name-container").setAttribute("style", "");            document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");        } else {            document.getElementsByClassName("menus_items")[1].setAttribute("style", "");            document.getElementById("name-container").setAttribute("style", "display:none");        }        position = scroll;    });    //修复没有弄右键菜单的童鞋无法回顶部的问题    document.getElementById("page-name").innerText = document.title.split(" | Zeph's Blog")[0];}function scrollToTop() {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");    btf.scrollToDest(0, 500);}]]></content>
       
     </entry>
     
@@ -366,21 +377,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/nav.js"/>
-      <url>/js/nav.js</url>
+      <link href="/js/universe.js"/>
+      <url>/js/universe.js</url>
       
-        <content type="html"><![CDATA[document.addEventListener('pjax:complete', tonav);document.addEventListener('DOMContentLoaded', tonav);//响应pjaxfunction tonav() {    document.getElementById("name-container").setAttribute("style", "display:none");    var position = $(window).scrollTop();    $(window).scroll(function () {        var scroll = $(window).scrollTop();        if (scroll > position) {            document.getElementById("name-container").setAttribute("style", "");            document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");        } else {            document.getElementsByClassName("menus_items")[1].setAttribute("style", "");            document.getElementById("name-container").setAttribute("style", "display:none");        }        position = scroll;    });    //修复没有弄右键菜单的童鞋无法回顶部的问题    document.getElementById("page-name").innerText = document.title.split(" | Zeph's Blog")[0];}function scrollToTop() {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");    btf.scrollToDest(0, 500);}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: rgba(22, 21, 21, 0.3) !important;  }  #page-header {    background: rgba(22, 21, 21, 0.3) !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }/* 小冰分类分类磁铁黑夜模式适配 *//* 一般状态 */[data-theme="dark"] .magnet_link_context {  background: #1e1e1e;  color: antiquewhite;}/* 鼠标悬浮状态 */[data-theme="dark"] .magnet_link_context:hover {  background: #3ecdf1;  color: #f2f2f2;}/* 侧边栏个人信息卡片动态渐变色 */#aside-content>.card-widget.card-info {  position: relative;  z-index: 1; /* 确保原内容在上层显示 */  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}#aside-content > .card-widget.card-info::before {  content: "";  position: absolute;  top: 0;  left: 0;  width: 100%;  height: 100%;  background: linear-gradient(to bottom,   rgba(255, 255, 255, 0.0),  rgba(255, 255, 255, 0.3),  rgba(255, 255, 255, 0.6),  rgba(255, 255, 255, 0.7)),  url('https://picbed1.zephzxt.top/2025/01/violet.png'); /* 鼠标悬停时显示的背景图片 */  background-size: cover;  background-repeat: no-repeat;  opacity: 0.5;  transition: opacity 0.8s; /* 过渡效果持续时间 */  z-index: -1;}[data-theme=dark] #aside-content > .card-widget.card-info::before {  background: linear-gradient(to bottom,   rgba(24, 40, 72, .1),  rgba(35, 37, 58, .3),      rgba(35, 37, 58, .6),      rgba(24, 40, 72, .7)),       url('https://picbed1.zephzxt.top/2025/01/violet.png'); /* 鼠标悬停时显示的背景图片 */  background-size: cover;  background-repeat: no-repeat;}#aside-content > .card-widget.card-info:hover::before {  opacity: 1;}/* 卡片动态效果，好好看哈哈 */#aside-content div.card-widget.card-info .avatar-img {  transition: opacity 0.3s ease; /* 添加渐变效果 */}#aside-content div.card-widget.card-info .avatar-img:hover {  opacity: 0; /* 鼠标移上去时完全透明 */}#card-info-btn:hover, #card-info-btn:hover .icon, #card-info-btn:hover span {transform: scale(1.1); /* 鼠标悬停时放大到110% */}[data-theme=dark] #aside-content>.card-widget.card-info {  background: linear-gradient(-45deg, rgba(24, 40, 72, .6),          rgba(35, 37, 58, .5),          rgba(35, 37, 58, .5),          rgba(24, 40, 72, .6));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/* 侧边栏公告栏卡片渐变色 */#aside-content>.card-widget.card-announcement {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] #aside-content>.card-widget.card-announcement {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  border-radius: 17px;          /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/* 侧边栏目录最新文章卡片渐变色 */#aside-content>.sticky_layout>.card-widget {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  border-radius: 17px;          /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] #aside-content>.sticky_layout>.card-widget {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/* 侧边栏欢迎卡片渐变色 */#aside-content>.card-widget.welcomeBoxClass {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] #aside-content>.card-widget.welcomeBoxClass {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/* 公告卡片渐变色 */#recent-posts>#noticeList {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] #recent-posts>#noticeList {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  border-radius: 17px;  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/* 个人信息Follow me按钮 */#aside-content>.card-widget.card-info>#card-info-btn {  background-color: #3eb8be;  border-radius: 12px;}/* 文章页面 *//* 亮色模式下 */.layout>#recent-posts .recent-post-item {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  backdrop-filter: blur(10px);  border-radius: 25px;  -webkit-backdrop-filter: blur(10px);}/* 暗色模式下 */[data-theme=dark] .layout>#recent-posts .recent-post-item {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  backdrop-filter: blur(10px);  border-radius: 25px;   -webkit-backdrop-filter: blur(10px);}/*分类页面*/.layout>#page {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */  /* -webkit-backdrop-filter: blur(10px); 兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] .layout>#page {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */  /* -webkit-backdrop-filter: blur(10px); 兼容性前缀，适用于一些旧版本的浏览器 */}/*时间轴页面*/.layout>#archive {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] .layout>#archive {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/*分类点进去的页面*/.layout>#category {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] .layout>#category {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}/*标签点进去的页面*/.layout>#tag {  background: linear-gradient(-45deg, rgba(255, 255, 255, .7),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .8),          rgba(255, 255, 255, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}[data-theme=dark] .layout>#tag {  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),          rgba(35, 37, 58, .8),          rgba(35, 37, 58, .8),          rgba(24, 40, 72, .7));  /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */   /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */}.layout.hide-aside { max-width: 1200px;}/* 设置黑夜的时候，社交按钮为白色 */[data-theme=dark] .social-icon i {  color: rgba(188, 188, 188) !important; /* 设置为白色 */}/*页脚样式设置*//* tzy页脚样式 */#ft {  max-width: 1200px;  margin: 0 auto 12px;  display: flex;  color: rgb(255 255 255 / 80%) !important;  text-align: left;  flex-wrap: wrap;}.ft-item-1,.ft-item-2 {  display: flex;  height: 100%;  padding: 2px 14px;}.ft-item-1 {  flex-direction: column;  flex: 2;}.ft-item-2 {  flex: 1;  flex-direction: column;}.t-top {  display: flex;}.t-top .t-t-l {  display: flex;  flex-direction: column;  flex: 1.4;  margin-right: 10px;}.t-top .t-t-l .bg-ad {  width: 85%;  border-radius: 10px;  padding: 0 10px;}.btn-xz-box {  margin-top: 10px;}/* 按钮背景颜色等 */.btn-xz {  display: block;  background-color: var(--btn-bg);  color: var(--btn-color);  text-align: center;  line-height: 2.4;  margin: 8px 0;}.btn-xz:hover {  text-decoration: none !important;}/* 按钮悬浮颜色 */.btn-xz-box:hover .btn-xz {  background-color: var(--text-bg-hover);}.t-top .t-t-r {  display: flex;  flex-direction: column;  flex: 1;}.ft-links {  padding: 0 14px;  list-style: none;  margin-top: 0 !important;}.ft-links li a {  display: inline-block !important;  width: 50%;}/* 链接悬浮颜色 */.ft-links li a:hover {  text-decoration: none !important;  color: var(--theme-color) !important;}.ft-item-2 .ft-img-group {  width: 100%;}.ft-t {  font-size: 1.1rem;  margin-bottom: 20px;  line-height: 1;  font-weight: 600;}.t-l-t {  padding-left: 14px;}.ft-item-2 .ft-img-group .img-group-item {  display: inline-block;  width: 18.4%;  margin-right: 14px;  margin-bottom: 6px;}.ft-item-2 .ft-img-group .img-group-item a {  display: inline-block;  width: 100%;  height: 100%;}.ft-item-2 .ft-img-group .img-group-item a img {  width: 100%;  max-height: 80px;  border-radius: 10px;}/* 头像悬浮颜色框 */.ft-item-2 .ft-img-group .img-group-item a img:hover {  border: 2px solid var(--theme-color);}@media screen and (max-width: 768px) {  .ft-item-1 {    flex-basis: 100% !important;  }  .ft-item-2 {    flex-basis: 100% !important;  }  .t-top .t-t-l .bg-ad {    width: 100%;  }}@media screen and (max-width: 576px) {  .t-top {    flex-wrap: wrap;  }  .t-top .t-t-l {    flex-basis: 100% !important;  }  .t-top .t-t-r {    margin-top: 16px;    flex-basis: 100% !important;  }}#footer-wrap a {  border-radius: 30px;}#footer-wrap {  padding: 20px 20px;}/* 页脚心跳动画 */#heartbeat {  color: red;  animation: iconAnimate 1s ease-in-out infinite;}@-moz-keyframes iconAnimate {  0%,  100% {    transform: scale(1);  }  10%,  30% {    transform: scale(0.9);  }  20%,  40%,  60%,  80% {    transform: scale(1.1);  }  50%,  70% {    transform: scale(1.1);  }}@-webkit-keyframes iconAnimate {  0%,  100% {    transform: scale(1);  }  10%,  30% {    transform: scale(0.9);  }  20%,  40%,  60%,  80% {    transform: scale(1.1);  }  50%,  70% {    transform: scale(1.1);  }}@-o-keyframes iconAnimate {  0%,  100% {    transform: scale(1);  }  10%,  30% {    transform: scale(0.9);  }  20%,  40%,  60%,  80% {    transform: scale(1.1);  }  50%,  70% {    transform: scale(1.1);  }}@keyframes iconAnimate {  0%,  100% {    transform: scale(1);  }  10%,  30% {    transform: scale(0.9);  }  20%,  40%,  60%,  80% {    transform: scale(1.1);  }  50%,  70% {    transform: scale(1.1);  }}/* iconfont@import "//at.alicdn.com/t/font_2264842_b004iy0kk2b.css"; *//*导航栏相关*//* 标题增强 */#site-name::before {  opacity: 0;  background-color: #87CEFA;  border-radius: 8px;  -webkit-border-radius: 8px;  -moz-border-radius: 8px;  -ms-border-radius: 8px;  -o-border-radius: 8px;  transition: 0.3s;  -webkit-transition: 0.3s;  -moz-transition: 0.3s;  -ms-transition: 0.3s;  -o-transition: 0.3s;  position: absolute;  top: 0 !important;  right: 0 !important;  width: 100%;  height: 100%;  content: "\f015";  box-shadow: 0 0 5px #87CEFA;  font-family: "Font Awesome 6 Free";  font-weight: 900;  text-align: center;  color: white;  line-height: 34px; /*如果有溢出或者垂直不居中的现象微调一下这个参数*/  font-size: 18px; /*根据个人喜好*/}#site-name:hover::before {  opacity: 1;  scale: 1.03;}#site-name {  position: relative;  font-size: 24px; /*一定要把字体调大点，否则效果惨不忍睹！*/}/* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(2) .menus_item_child {  left: -125px;}.menus_items .menus_item:nth-child(3) .menus_item_child {  left: 3px;}.menus_items .menus_item:nth-child(4) .menus_item_child {  left: -34px;}.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -34px;}.nav-fixed #nav{  transform: translateY(58px)!important;  -webkit-transform: translateY(58px)!important;  -moz-transform: translateY(58px)!important;  -ms-transform: translateY(58px)!important;  -o-transform: translateY(58px)!important;}#nav{  transition: none!important;  -webkit-transition: none!important;  -moz-transition: none!important;  -ms-transition: none!important;  -o-transition: none!important;}/* 导航栏显示标题 */#page-name::before {  font-size: 18px;  position: absolute;  width: 100%;  height: 100%;  border-radius: 8px;  color: rgb(95, 140, 182) !important;  top: 0;  left: 0;  content: "回到顶部";  background-color: #87CEFA;  transition: all 0.3s;  -webkit-transition: all 0.3s;  -moz-transition: all 0.3s;  -ms-transition: all 0.3s;  -o-transition: all 0.3s;  opacity: 0;  box-shadow: 0 0 3px #87CEFA;  line-height: 45px; /*如果垂直位置不居中可以微调此值，也可以删了*/}#page-name:hover:before {  opacity: 1;}#name-container {  transition: all 0.3s;  -webkit-transition: all 0.3s;  -moz-transition: all 0.3s;  -ms-transition: all 0.3s;  -o-transition: all 0.3s;}#name-container:hover {  scale: 1.03;}#page-name {  position: relative;  padding: 10px 30px; /*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/}#nav{    padding: 0 20px;}/* 修复滚动显示标题居中 */center#name-container {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%);}@media screen and (max-width: 768px) {  center#name-container {    display: none;  }}/* 播放器样式*/.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {  left: -66px !important;  /* 默认情况下缩进左侧66px，只留一点箭头部分 */}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {  left: 0 !important;  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */}svg.icon {  width: 1.28em;  height: 1.28em;  vertical-align: -0.15em;  fill: currentColor;  overflow: hidden;}/* 背景宇宙星光  */#universe{  display: block;  position: fixed;  margin: 0;  padding: 0;  border: 0;  outline: 0;  left: 0;  top: 0;  width: 100%;  height: 100%;  pointer-events: none;  /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */  z-index: -1;}[data-theme=dark] #web_bg {  background-image: url(https://picbed1.zephzxt.top/2025/01/S00125-13355407.webp) !important;}@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'LXGW';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/霞鹜文楷.woff2);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}/* 波浪css */.main-hero-waves-area {  width: 100%;  position: absolute;  left: 0;  bottom: -11px;  z-index: 5;}.waves-area .waves-svg {  width: 100%;  height: 5rem;}/* Animation */.parallax > use {  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;}.parallax > use:nth-child(1) {  animation-delay: -2s;  animation-duration: 7s;  fill: #f7f9febd;}.parallax > use:nth-child(2) {  animation-delay: -3s;  animation-duration: 10s;  fill: #f7f9fe82;}.parallax > use:nth-child(3) {  animation-delay: -4s;  animation-duration: 13s;  fill: #f7f9fe36;}.parallax > use:nth-child(4) {  animation-delay: -5s;  animation-duration: 20s;  fill: #f7f9fe;}/* 黑色模式背景 */[data-theme="dark"] .parallax > use:nth-child(1) {  animation-delay: -2s;  animation-duration: 7s;  fill: #18171dc8;}[data-theme="dark"] .parallax > use:nth-child(2) {  animation-delay: -3s;  animation-duration: 10s;  fill: #18171d80;}[data-theme="dark"] .parallax > use:nth-child(3) {  animation-delay: -4s;  animation-duration: 13s;  fill: #18171d3e;}[data-theme="dark"] .parallax > use:nth-child(4) {  animation-delay: -5s;  animation-duration: 20s;  fill: #18171d;}@keyframes move-forever {  0% {    transform: translate3d(-90px, 0, 0);  }  100% {    transform: translate3d(85px, 0, 0);  }}/*Shrinking for mobile*/@media (max-width: 768px) {  .waves-area .waves-svg {    height: 40px;    min-height: 40px;  }}]]></content>
+        <content type="html"><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};dark()]]></content>
       
     </entry>
     
@@ -392,28 +392,6 @@
       <url>/js/runtime.js</url>
       
         <content type="html"><![CDATA[var now = new Date();function createtime() {  // 当前时间  now.setTime(now.getTime() + 1000);  var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间  var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒  var unit = (dis / 149600000).toFixed(6);  // 天文单位  var grt = new Date("01/22/2025 00:00:00");// 网站诞生时间  var days = (now - grt) / 1e3 / 60 / 60 / 24,    dnum = Math.floor(days),    hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,    hnum = Math.floor(hours);  1 == String(hnum).length && (hnum = "0" + hnum);  var minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum,    mnum = Math.floor(minutes);  1 == String(mnum).length && (mnum = "0" + mnum);  var seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,    snum = Math.round(seconds);  1 == String(snum).length && (snum = "0" + snum);  let currentTimeHtml = "";  (currentTimeHtml =    hnum < 18 && hnum >= 9    ? `<img class='boardsign' src='https://picbed1.zephzxt.top/2025/01/result.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`    : `<img class='boardsign' src='https://picbed1.zephzxt.top/2025/01/result1.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),    document.getElementById("workboard") &&    (document.getElementById("workboard").innerHTML = currentTimeHtml);}// 设置重复执行函数，周期1000mssetInterval(() => {  createtime();}, 1000);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/universe.js"/>
-      <url>/js/universe.js</url>
-      
-        <content type="html"><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};dark()]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -442,6 +420,39 @@
     
     
     <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/site/link/index.html"/>
+      <url>/site/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>统计</title>
       <link href="/site/echarts/index.html"/>
       <url>/site/echarts/index.html</url>
@@ -458,17 +469,6 @@
       <url>/site/log/index.html</url>
       
         <content type="html"><![CDATA[<div class="timeline "><div class='timeline-item headline'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2025</p></div>        </div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>02/07</p></div>        </div>        <div class='timeline-item-content'><p>1、修改了导航栏的分类，使其更为合理<br>2、文章以及各页面的顶部加上了波浪线<br>3、页脚的标签更换为自己的，以后会慢慢改掉<br>4、参考了<a href="https://blog.eurkon.com/post/1213ef82.html">Eurkon</a>的教程，使用echarts添加了文章统计功能</p></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>02/05</p></div>        </div>        <div class='timeline-item-content'><p>1、再次修改了导航栏的小bug<br>2、发布了第一篇文章<br>3、修改了网站的字体</p></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>02/01</p></div>        </div>        <div class='timeline-item-content'><p>1、加入夜晚的星空背景和流行特效<a href="https://www.fomal.cc/posts/eec9786.html">Fomalhaut🥝</a><br>2、更换夜间的背景图<br>3、更换侧边栏个人卡片的背景图<br>4、将页脚的标签更换为自己的</p></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>01/29</p></div>        </div>        <div class='timeline-item-content'><p>1、添加aplyer + MeijingJS（引入 MetingJS 后，播放器将支持对于 QQ音乐、网易云音乐、虾米、酷狗、百度等平台的音乐播放）<br>2、添加iconfont图标<a href="https://www.fomal.cc/posts/5389e93f.html">Fomalhaut🥝</a><br>3、引入外挂标签<a href="https://www.fomal.cc/posts/5389e93f.html">Fomalhaut🥝</a><br>4、实现动态图标<a href="https://www.fomal.cc/posts/5389e93f.html">Fomalhaut🥝</a><br>5、修改导航栏的bug</p></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>01/28</p></div>        </div>        <div class='timeline-item-content'><p>1、导航栏魔改<a href="https://www.fomal.cc/posts/d1927166.html">Fomalhaut🥝</a><br>2、背景图更换</p></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>01/27</p></div>        </div>        <div class='timeline-item-content'><p>1、更换网站的图标和个人头像<br>2、<a href="https://www.fomal.cc/posts/d739261b.html">Fomalhaut🥝</a>更换页脚<br>3、实现网站首页文章双栏显示<br>4、设置网站背景为毛玻璃效果,参考了<a href="https://blog.liushen.fun/posts/28ae33b6/">清羽 〄 飞扬</a><br>5、设置page-header和footer的遮罩层，使其更加美观</p></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>01/22-01/26</p></div>        </div>        <div class='timeline-item-content'><p>1、<a href="https://www.fomal.cc/posts/eec9786.html">Fomalhaut🥝</a>violet留言板<br>2、<a href="https://www.fomal.cc/posts/eec9786.html">Fomalhaut🥝</a>一图流教程<br>3、<a href="https://www.fomal.cc/posts/eec9786.html">Fomalhaut🥝</a>文章滚动置顶栏<br>4、更换首页的背景图</p></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>01/21</p></div>        </div>        <div class='timeline-item-content'><p>突发奇想的想搭建一个博客，本来想自己用springboot + vue写一个博客系统，奈何自己技术还不够，于是只能在网上寻找各种现成的博客框架。</p><p>在网上了解到发现，博客原来分为静态博客和动态博客，静态博客就是用html、css、js等静态页面编写，而动态博客则是用后端语言如java、php、python等编写，后端通过数据库存储数据，前端通过ajax请求后端数据，实现动态更新。在经过了解后最终还是选择了静态博客，因为他的可定制化程度比较高，而且也不需要数据库和服务器什么的，成本也比较低，也不会被攻击，不过也确实不方便，毕竟每次更新都需要重新部署，而且只能在本地，不过对于我一个小白来说，也已经足够了，等之后可能再会去折腾一下动态博客。</p><p>决定建一个静态博客后，接下来便是寻找合适的静态博客框架，在网上找到了很多，如hexo、hugo、gatsby等，最终选择了hexo，因为他的配置比较简单，而且有很多主题可以选择，而且他的文档也很全面。主题选择的是butterfly，因为它的教程很全，而且社区生态应该是最大的，网上随处可见的各种魔改教程，也发现了很多的大佬的非常好看的博客，比如<a href="https://www.fomal.cc/">Fomalhaut🥝</a>，<a href="https://blog.aligu.top/">阿力古の小菜园</a>，<a href="https://blog.liushen.fun/">清羽 〄 飞扬</a>，<a href="https://akilar.top/">店长</a>……所以本博客的搭建都是基于以上及网上各种博客的教程，感谢这些大佬的无私奉献！<br>1、安装hexo<br>2、部署到github pages，域名是从阿里云买的<br>3、versel托管和cloudflare加速<a href="https://www.fomal.cc/posts/4aa2d85f.html">Fomalhaut🥝</a><br>4、配置butterfly主题，这里可以参考官方的教程<a href="https://butterfly.js.org/posts/4aa8abbe/">Butterfly</a><br>5、使用picgo和github搭建了一个免费图床，可以上传图片到github仓库，然后在markdown中引用图片，这样就不用担心图片丢失的问题了，不过访问速度有点一般，后续看一下有没有更好的图床可以替换。</p></div>      </div></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友情链接</title>
-      <link href="/site/link/index.html"/>
-      <url>/site/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
