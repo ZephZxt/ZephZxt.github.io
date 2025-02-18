@@ -26,13 +26,18 @@
 /* 小冰分类分类磁铁黑夜模式适配 */
 /* 一般状态 */
 [data-theme="dark"] .magnet_link_context {
-  background: #1e1e1e;
+  background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+          rgba(35, 37, 58, .8),
+          rgba(35, 37, 58, .8),
+          rgba(24, 40, 72, .7));
   color: antiquewhite;
+  border-radius: 7px;
 }
 /* 鼠标悬浮状态 */
 [data-theme="dark"] .magnet_link_context:hover {
-  background: #3ecdf1;
+  background: #87CEFA;
   color: #f2f2f2;
+  border-radius: 7px;
 }
 
 
@@ -613,10 +618,10 @@ transform: scale(1.1); /* 鼠标悬停时放大到110% */
   left: -125px;
 }
 .menus_items .menus_item:nth-child(3) .menus_item_child {
-  left: 3px;
+  left: -34px;
 }
 .menus_items .menus_item:nth-child(4) .menus_item_child {
-  left: -34px;
+  left: -81px;
 }
 .menus_items .menus_item:nth-child(5) .menus_item_child {
   left: -34px;
